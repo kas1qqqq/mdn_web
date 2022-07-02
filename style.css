@@ -267,11 +267,6 @@ li:last-child {
 }
 
 @media (max-width: 400px) {
-  .header-logo {
-    width: 150px;
-    height: 150px;
-  }
-
   .middle__section {
     height: 260px;
   }
@@ -281,9 +276,12 @@ li:last-child {
     padding: 0 10px;
   }
 
-  .burger-menu img {
-    width: 30px;
-    height: 30px;
+  .left-header {
+    font-size: 9px;
+  }
+
+  .right-header {
+    font-size: 11px;
   }
 }
 
